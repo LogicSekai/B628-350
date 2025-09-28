@@ -1,0 +1,13 @@
+{
+  "name": "B628-350",
+  "version": "1.0.0",
+  "description": "Automatically searching for cellular networks when the connection is lost and there is no internet on the B628-350 modem router.",
+  "main": "app.js",
+  "scripts": {
+    "start": "bun app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "puppeteer-core": "^24.22.3"
+  }
+}
